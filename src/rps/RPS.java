@@ -194,7 +194,7 @@ public class RPS extends JPanel {
         }
     }
     public void setCompValue() {
-        compValue = (int)(Math.random() * 2);
+        compValue = (int)(Math.random() * 3);
     }
     public int getUserValue() {
         return userValue;
